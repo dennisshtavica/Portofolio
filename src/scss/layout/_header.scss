@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 79px;
+  margin-right: 79px;
+  margin-top: 45px;
+
+  #logo {
+    img {
+      width: 41px;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+
+    a{
+        color: black; 
+        &:hover {
+            color: #626262;
+            transition: 0.2s;
+        }
+    }
+    
+    .vW-btn {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 5px 26px;
+
+      &:hover {
+        box-shadow: -2px 2px 0px 1px #000000;
+      }
+    }
+  }
+}

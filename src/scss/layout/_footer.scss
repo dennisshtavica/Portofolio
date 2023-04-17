@@ -1,0 +1,25 @@
+footer {
+  width: auto;
+  height: 179px;
+  background-color: #151515;
+}
+
+.dots {
+  background: url("../../assets/images/dots.svg") no-repeat;
+  // z-index: 1;
+  height: 100%;
+
+  .socials-ctn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+    .socials {
+      a {
+        padding: 10px;
+        color: white;
+      }
+    }
+  }
+}

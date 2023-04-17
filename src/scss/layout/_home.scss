@@ -1,0 +1,33 @@
+.home {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 79px;
+  margin-right: 79px;
+
+  .left-side {
+    p {
+      width: 720px;
+      height: 116px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 38px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      //   width: 143px;
+      //   height: 47px;
+      padding: 13px 25px;
+      left: 79px;
+      top: 495px;
+      color: white;
+      background: #000101;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: 600;
+      //   margin-bottom: 30px;
+    }
+  }
+}
